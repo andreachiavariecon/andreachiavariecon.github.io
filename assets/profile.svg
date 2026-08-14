@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Andrea Chiavari profile mark</title>
+  <desc id="desc">A simple circular academic profile mark with the initials AC.</desc>
+  <rect width="400" height="400" fill="#fffdfa"/>
+  <circle cx="200" cy="200" r="188" fill="#f7f5ef" stroke="#d9d5ca" stroke-width="4"/>
+  <circle cx="200" cy="154" r="66" fill="#d8cfc0"/>
+  <path d="M84 340c15-75 60-116 116-116s101 41 116 116" fill="#b9c5ca"/>
+  <text x="200" y="375" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="44" fill="#191919">AC</text>
+</svg>
