@@ -413,8 +413,20 @@ h2 {
     padding-right: 0;
   }
 
+  /* phone only: stack the action buttons UNDER the (wrapping) title and
+     right-align them, instead of the desktop title+buttons-on-one-row layout */
+  .paper-head {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
   .paper-head h3 {
-    flex-basis: 100%;
+    flex-basis: auto;
+  }
+
+  .paper-actions {
+    justify-content: flex-end;
+    margin-left: 0;
   }
 
   /* let Work-in-progress titles wrap on phones (they're nowrap on desktop,
