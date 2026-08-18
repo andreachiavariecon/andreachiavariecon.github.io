@@ -417,6 +417,12 @@ h2 {
     flex-basis: 100%;
   }
 
+  /* let Work-in-progress titles wrap on phones (they're nowrap on desktop,
+     where they fit; on a narrow screen nowrap overflows the viewport) */
+  #work-in-progress .paper h3 {
+    white-space: normal;
+  }
+
   .portrait {
     width: min(240px, 70vw);
     margin-left: auto;
