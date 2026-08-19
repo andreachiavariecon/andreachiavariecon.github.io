@@ -334,26 +334,18 @@ h2 {
 .media-popover {
   position: absolute;
   top: calc(100% + 4px);
-  left: 0;
-  display: grid;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 4px;
-  min-width: 180px;
   padding: 6px;
+  white-space: nowrap;
   border: 1px solid var(--line);
   border-radius: 6px;
   background: var(--panel);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   z-index: 10;
-}
-
-.media-popover a {
-  padding: 4px 6px;
-  border-radius: 4px;
-}
-
-.media-popover a:hover,
-.media-popover a:focus {
-  background: color-mix(in srgb, var(--panel) 50%, white);
 }
 
 .toggle::after {
