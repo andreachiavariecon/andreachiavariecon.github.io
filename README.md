@@ -10,10 +10,9 @@ Files:
 - `styles.css`: layout and typography
 - `script.js`: abstract expand/collapse behavior
 - `assets/profile.svg`: fallback profile image placeholder
+- `pdfs/`: every PDF the site links to (papers, appendices, slides, CV) is stored here, not on external hosts. Names are lowercase kebab-case built from the paper's anchor id in `index.html`: `<paper-id>.pdf`, `<paper-id>-appendix.pdf`, `<paper-id>-slides.pdf`, `<paper-id>-ecb-working-paper.pdf`, plus `curriculum-vitae.pdf`
 
 The desktop layout has two columns: the left profile/about column remains fixed, while the right research column scrolls independently. On mobile, the page collapses to one column.
-
-Before publishing, replace any links that point back to the current Google Site with exact final CV, paper, appendix, and slide URLs.
 
 ## Search and analytics maintenance
 
