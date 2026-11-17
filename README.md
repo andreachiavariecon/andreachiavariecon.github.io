@@ -10,7 +10,7 @@ Files:
 - `styles.css`: layout and typography
 - `script.js`: abstract expand/collapse behavior
 - `assets/profile.svg`: fallback profile image placeholder
-- `pdfs/`: every PDF the site links to is stored here, grouped by site section: `cv/`, `publications/`, `working-papers/`, `discussions/`. File names are lowercase kebab-case built from the paper's anchor id in `index.html`: `<paper-id>.pdf`, `<paper-id>-appendix.pdf`, `<paper-id>-slides.pdf`, `<paper-id>-ecb-working-paper.pdf`. When a paper moves between sections (e.g. to Publications), move its PDFs to the matching folder and update the links
+- `pdfs/`: every PDF the site links to is stored here, grouped by site section (`cv/`, `publications/`, `working-papers/`, `discussions/`). Within a section each paper has its own folder named after its anchor id in `index.html`, holding `paper.pdf`, `appendix.pdf`, `slides.pdf` or `ecb-working-paper.pdf` as applicable (e.g. `pdfs/publications/heterogeneous-markups-cyclicality/appendix.pdf`). When a paper moves between sections, move its whole folder and update the links
 
 The desktop layout has two columns: the left profile/about column remains fixed, while the right research column scrolls independently. On mobile, the page collapses to one column.
 
